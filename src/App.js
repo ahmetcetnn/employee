@@ -1,6 +1,6 @@
-
 import './App.css';
 import Employeelist from './Componenets/Employeelist';
+import EmployeeContextProvider from './Componenets/Context/EmployeeContext';
 
 function App() {
   return (
@@ -19,7 +19,9 @@ function App() {
 				</div>
         
 			</div>
+      <EmployeeContextProvider>
       <Employeelist/>
+      </EmployeeContextProvider>
       </div>
       </div>
       </div>
