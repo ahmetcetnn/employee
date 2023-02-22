@@ -1,6 +1,7 @@
 import React from 'react'
+import {Form,Button,FormGroup} from "react-bootstrap"
 
-function Form() {
+function AddForm() {
   return (
     <Form>
         <FormGroup>
@@ -35,4 +36,4 @@ function Form() {
   )
 }
 
-export default Form
+export default  AddForm;
