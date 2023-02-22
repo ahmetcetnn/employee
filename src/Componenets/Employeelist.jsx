@@ -35,7 +35,7 @@ function Employeelist() {
 						<th>Email</th>
 						<th>Address</th>
 						<th>Phone</th>
-						<th>Actions</th>
+						<th>Actionns</th>
 					</tr>
 				</thead>
                 <tbody>
