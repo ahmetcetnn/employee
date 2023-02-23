@@ -5,7 +5,7 @@ import { useContext,useState } from 'react';
 
 
 function AddForm() {
-  const {addEmployee} =useContext(EmployeeContext);
+  const { addEmployee } =useContext(EmployeeContext);
   const [name,setName] =useState([])
   const [email,setEmail] =useState([])
   const [address,setAddress] =useState([])
